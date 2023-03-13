@@ -1,0 +1,118 @@
+header {
+    background-image: linear-gradient(orange, white, green);
+ 
+}
+header nav{
+    background-image: linear-gradient(orange, white, green);
+}
+
+header a .logo {
+    width: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+
+}
+
+header nav a:hover {
+ 
+    padding: 0.2rem;
+    color: tomato;
+    transition: 1s ease;
+    text-decoration: underline;
+}
+
+header nav a i {
+    color: black;
+ 
+}
+
+.places a{
+   
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 4rem;
+}
+.places a:hover{
+    color:tomato;
+    text-decoration: underline;
+    font-size: 20px;
+    transition: 1s ease;
+}
+
+section {
+    margin-top: 3rem;
+    background-image: linear-gradient(85deg, orange, white, green);
+}
+
+section a img {
+    width: 600px;
+    border-radius: 15px;
+
+
+}
+
+section aside {
+    padding: 10px;
+    width: 50%;
+    float: right;
+}
+section a .btn{
+    animation-name: a;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+@keyframes a{
+    20%{
+        background-image: linear-gradient(120deg,orange, white ,green);
+    }
+    40%{
+         background-image: linear-gradient(120deg,orange, white ,green);
+    }
+    60%{
+       background-color: yellowgreen;
+    }
+    80%{
+        background-color: green;
+    }
+}
+
+section .audio {
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+
+footer {
+    background-image: linear-gradient(20deg, orange, white, green);
+}
+
+footer h2 {
+    margin-bottom: 2rem;
+    color: darkred;
+
+}
+
+footer ul li {
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .end a {
+    color: darkred;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-top: 8rem;
+
+}

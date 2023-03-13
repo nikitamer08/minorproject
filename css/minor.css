@@ -1,0 +1,152 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-image: url('/images/bg.jpg.webp');
+    background-repeat: no-repeat;
+    height: 400px;
+   
+}
+
+header a img{
+    width: 40px;
+   
+}
+
+header h2{
+   font-weight: 650;
+   font-size: 40px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header nav{
+    background-color: lightblue;
+}
+header a{
+    color: orangered;
+    text-decoration: none;
+    font-weight: 600;
+   
+}
+header a:hover{
+        color: orange;
+        text-decoration: underline;
+        text-decoration-color: black;
+         transition: 1s ease;
+}
+.start{
+    text-align: center;
+    background-color: aliceblue;
+}
+.start a{
+    text-decoration: none;
+    color: lightslategray;
+}
+.start a:hover{
+    text-decoration: underline;
+    color: rgb(64, 131, 153);
+}
+.first{
+    background-image: linear-gradient(35deg, orange, white, green);
+}
+.first a img{
+    width: 800px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 2rem;
+    background-color: lightgray;
+
+}
+.first .number{
+    color: orangered;
+}
+.first p{
+    margin-bottom: 1rem;
+}
+
+.first .light{
+    color: grey;
+}
+.container-fluid{
+    background-color: rgba(100, 148, 237, 0.233);
+   
+}
+.container-fluid h2{
+    margin-bottom: 5rem;
+}
+.container-fluid .col img{
+    border-radius: 10px;
+   
+}
+.container-fluid p{
+    color: darkred;
+    font-weight: 500;
+}
+
+aside{
+  padding: 40px;
+    width: 35px;
+    float: right;
+}
+/* .distance{
+    margin-bottom: 2rem;
+} */
+
+.first a .btn{
+    animation-name: a;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  box-shadow: 10px 10px 20px solid black;
+}
+@keyframes a{
+    20%{
+        background-image: linear-gradient(120deg,orange, white ,green);
+    }
+    40%{
+         background-image: linear-gradient(120deg,orange, white ,green);
+    }
+    60%{
+       background-color: yellowgreen;
+    }
+    80%{
+        background-color: green;
+    }
+}
+section .audio {
+    text-align: center;
+    margin-bottom: 4rem;
+    border-radius: 80px;
+   background-image: linear-gradient(20deg, orange, white, green);
+
+}
+
+footer {
+    background-image: linear-gradient(20deg, orange, white, green);
+ 
+}
+
+footer h2 {
+    margin-bottom: 2rem;
+    color: darkred;
+
+}
+
+footer ul li {
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .end a {
+    color: darkred;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-top: 8rem;
+
+}

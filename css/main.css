@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url('/images/bg.jpg.webp');
+    background-repeat: no-repeat;
+    height: 400px;
+}
+header .logo img{
+    height: 40px;
+    width: 40px;
+   margin: 1rem;
+}
+header .menu a{
+    margin: 2rem;
+    text-decoration: none;
+    color: orange;
+   font-weight: 500;
+}
+header .menu a:hover{
+    text-decoration: underline;
+    color: lightsalmon;
+}
+.places {
+    background-color: lightblue;
+    margin-bottom: 3rem;
+  text-align: center;
+  color: brown;
+
+}
+.places a{
+    text-decoration: none;
+    color: rgb(23, 29, 12);
+}
+.places a:hover{
+    text-decoration: underline;
+    color: rgb(66, 21, 3);
+}
+section{
+    background-image: linear-gradient(120deg,orange,white,green);
+}
+section .number{
+    color: orangered;
+}
+ section .img img{
+    width: 600px;
+    height: 400px;
+     border-radius: 15px;
+}
+section .text .btn{
+    margin-bottom: 16rem;
+}
+
+
+.img, text{
+    width: 50%;
+    float: left;
+    padding: 1.5rem;
+  background-color: lightblue;
+    
+   
+} 
+.container-fluid{
+    background-color: rgba(189, 179, 149, 0.842);
+}
+.container-fluid h2{
+    margin-bottom: 4rem;
+  
+}
+section a .btn{
+    animation-name: a;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  box-shadow: 10px 10px 20px solid black;
+}
+@keyframes a{
+    20%{
+        background-image: linear-gradient(120deg,orange, white ,green);
+    }
+    40%{
+         background-image: linear-gradient(120deg,orange, white ,green);
+    }
+    60%{
+       background-color: yellowgreen;
+    }
+    80%{
+        background-color: green;
+    }
+}
+section .audio {
+    text-align: center;
+    margin-bottom: 4rem;
+    border-radius: 80px;
+   background-image: linear-gradient(20deg, orange, white, green);
+
+}
+footer {
+    background-image: linear-gradient(20deg, orange, white, green);
+ 
+}
+
+footer h2 {
+    margin-bottom: 2rem;
+    color: darkred;
+
+}
+footer p{
+   
+    color: darkblue;
+
+   font-weight: 600;
+
+}
+
+footer ul li {
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .end a {
+    color: darkred;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-top: 8rem;
+
+}
